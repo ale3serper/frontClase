@@ -1,26 +1,27 @@
-.characterContainer{
-    display: flex;
-    flex-direction: row;
-    gap: 20px; 
-    align-items: center;
-    justify-content: center;
-    padding: 6px;
-    border: solid 1px #2a88c3;
-    border-radius: 2px;
+.mainContainer {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background: #111827;
+  padding: 20px;
+  border-radius: 15px;
+  margin: 15px 0;
+  border: 2px solid #00ff9f;
+  box-shadow: 0 0 15px #00ff9f55;
+  transition: 0.3s;
 }
 
-
-.characterContainer img{
-/* dentro del componente que tenga esto,todos los hijos tendráne ste estilo */
-border-radius: 6px;
-width: 300px;
-height: auto;
-box-shadow: 2px 2px 2px #025f79;
+.mainContainer:hover {
+  transform: scale(1.02);
+  box-shadow: 0 0 25px #39ff14;
 }
 
-.characterDataContainer{
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-    padding: 8px 8px 8px 18px ;
+.mainContainer img {
+  width: 120px;
+  border-radius: 10px;
+  border: 2px solid #39ff14;
+}
+
+.characterDataContainer h2 {
+  color: #39ff14;
 }
