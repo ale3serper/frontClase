@@ -14,6 +14,8 @@ const Home=()=> {
 
   return (
     <div>
+      <Link href="/laotra/27"> la otra 27</Link>
+    
       <h1>Helloooouu!</h1>
       <Link href="/laotra"> Si pinchas aqui te lleva a la otra</Link>
     
