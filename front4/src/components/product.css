@@ -1,0 +1,9 @@
+
+
+.productillo{
+    cursor: pointer
+}
+
+.productillo:hover{
+    border: 2px solid firebrick
+}
