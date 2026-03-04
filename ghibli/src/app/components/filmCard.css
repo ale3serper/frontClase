@@ -1,0 +1,74 @@
+/* Tarjeta de película */
+.filmcard {
+  max-width: 800px;
+  width: 90%;
+  background-color: rgba(25, 25, 25, 0.9); /* fondo más oscuro y elegante */
+  padding: 3rem;
+  border-radius: 20px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.4); /* sombra más suave */
+  color: #fff;
+  text-align: center;
+  margin: 2rem auto; /* centrado vertical y horizontal */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* efecto hover */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Hover efecto sutil */
+.filmcard:hover {
+  transform: scale(1.03);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
+}
+
+/* Imagen de la película */
+.filmcard img {
+  width: 100%;
+  max-height: 500px;
+  object-fit: cover;
+  border-radius: 16px;
+  margin-bottom: 2rem;
+  border: 2px solid rgba(255,255,255,0.2);
+}
+
+/* Título de la película */
+.filmcard h1 {
+  font-size: 2.8rem;
+  margin-bottom: 1.5rem;
+  font-family: 'Poppins', sans-serif;
+  text-shadow: 1px 1px 5px rgba(0,0,0,0.6);
+}
+
+/* Información de la película */
+.filmcard p {
+  font-size: 1.15rem;
+  margin-bottom: 1rem;
+  line-height: 1.7;
+}
+
+/* Descripción con justificado y line-height cómodo */
+.filmcard .description {
+  text-align: justify;
+  line-height: 1.8;
+  max-height: 300px;
+  overflow-y: auto; /* si es muy larga, scroll */
+  padding-right: 0.5rem;
+}
+
+/* Etiquetas en negrita */
+.filmcard .releaseDate,
+.filmcard .director,
+.filmcard .rtscore {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+/* Scroll personalizado para descripción */
+.filmcard .description::-webkit-scrollbar {
+  width: 6px;
+}
+
+.filmcard .description::-webkit-scrollbar-thumb {
+  background-color: rgba(255,255,255,0.3);
+  border-radius: 3px;
+}

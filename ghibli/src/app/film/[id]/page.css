@@ -1,0 +1,33 @@
+/* Contenedor principal de la página de detalle */
+.paginaId {
+  min-height: 100vh;
+  display: flex;
+  background-image: url("/fondo.jpg");
+  flex-direction: column;
+  align-items: center; /* centra horizontalmente */
+  justify-content: center; /* centra verticalmente */
+  padding: 2rem;
+  background-color: #f5f5f5; /* fondo claro */
+  font-family: 'Poppins', sans-serif;
+  color: #333;
+}
+
+/* Botón Volver debajo de la tarjeta */
+.volver {
+  padding: 0.5rem 1rem;
+  font-size: 0.9rem;
+  border-radius: 8px;
+  border: none;
+  background-color: #2196f3;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-top: 2rem; /* espacio debajo de la tarjeta */
+  text-decoration: none; /* quitar subrayado de Link */
+  display: inline-block; /* para que respete padding */
+  text-align: center;
+}
+
+.volver:hover {
+  background-color: #1976d2;
+}
