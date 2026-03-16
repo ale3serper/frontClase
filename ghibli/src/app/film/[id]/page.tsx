@@ -33,7 +33,7 @@ const FilmConId=()=>{
     return(
         <div className="paginaId">
             
-            <Link href="/" className="volver">Volver</Link>
+            <Link href="/" className="volver">Inicio</Link>
             <FilmView film={films}/>
 
         </div>
